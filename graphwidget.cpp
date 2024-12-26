@@ -138,7 +138,7 @@ void GraphWidget::onRemoveNode(){
     }
 
     for (Node* node:nodesToRemove){
-        QList edgesToRemove = node->getNodeEdges();
+        QVector<Edge*> edgesToRemove = node->getNodeEdges();
         for (Edge* edge:edgesToRemove){
 
             edges_.removeOne(edge);

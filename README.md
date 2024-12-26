@@ -1,7 +1,7 @@
 # graph2
 ## установка
 Для установки приложения выполните:
-1. Склонируйте репозиторий: git clone https://github.com/Semion769/graph2.git;
+1. Склонируйте репозиторий: git clone https://github.com/Semion769/graph2.git
 2. Откройте Qt Creator или другую среду разработки
 3. Перейдите в папку graph2 и откройте файл task2.pro
 4. Запустите проект

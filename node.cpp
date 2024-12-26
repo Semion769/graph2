@@ -52,7 +52,7 @@ void Node::removeEdge(Edge* edge){
     nodeEdges_.removeOne(edge);
 }
 
-QVector<Edge*> Node::getNodeEdges(){
+QList<Edge*> Node::getNodeEdges(){
     return nodeEdges_;
 }
 

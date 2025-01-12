@@ -6,6 +6,7 @@
 #include <queue>
 #include <QString>
 #include <QList>
+#include <QSet>
 
 GraphWidget::GraphWidget(QWidget *parent)
     : QWidget{parent}, nodeId(0), pathItem_(nullptr)
